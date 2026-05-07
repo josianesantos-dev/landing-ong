@@ -1,1 +1,87 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #fffaf7;
+  color: #333;
+  text-align: center;
+}
 
+.hero {
+  background: #f7d9e3;
+  padding: 40px 20px;
+}
+
+.logo {
+  width: 140px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 15px;
+  color: #b04b6b;
+}
+
+.frase {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+section {
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #b04b6b;
+}
+
+.btn {
+  display: inline-block;
+  margin: 10px;
+  padding: 14px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.whatsapp {
+  background: #25d366;
+}
+
+.pix-btn {
+  background: #b04b6b;
+  border: none;
+  cursor: pointer;
+}
+
+.pix-chave {
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.obs {
+  margin-top: 15px;
+}
+
+/* CARROSSEL */
+
+.carrossel {
+  max-width: 500px;
+  margin: auto;
+}
+
+.slides {
+  position: relative;
+}
+
+.slide {
+  width: 100%;
+  display: none;
+  border-radius: 12px;
+}
+
+.slide.active {
+  display: block;
+}
