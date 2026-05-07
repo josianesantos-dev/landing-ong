@@ -1,92 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mulheres que Cuidam</title>
 
   <link rel="stylesheet" href="style.css">
-
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-  <!-- HERO COM IMAGEM DE FUNDO -->
-  <header class="hero">
+<!-- HERO -->
+<header class="hero">
+  <div class="overlay"></div>
 
-    <div class="overlay"></div>
+  <img src="logo.jpg" class="logo">
 
-    <img src="logo.jpg" alt="Logo ONG" class="logo">
+  <h1>Mulheres que Cuidam</h1>
+  <p>Transformando vidas com solidariedade</p>
 
-    <h1>Mulheres que Cuidam</h1>
+  <div class="hero-buttons">
+    <a href="#pix" class="btn primary">Quero ajudar</a>
+    <a href="https://wa.me/5548992191914" target="_blank" class="btn secondary">Falar no WhatsApp</a>
+  </div>
+</header>
 
-    <p class="frase">
-      Transformando vidas através de solidariedade com propósito
-    </p>
+<!-- IMPACTO -->
+<section class="impacto">
+  <div class="card">+500 famílias ajudadas</div>
+  <div class="card">+1000 doações</div>
+  <div class="card">1 missão: cuidar de pessoas</div>
+</section>
 
-    <div class="hero-buttons">
-      <a href="#pix" class="btn primary">Quero ajudar</a>
-      <a href="https://wa.me/5548992191914" target="_blank" class="btn secondary">Falar no WhatsApp</a>
+<!-- SOBRE -->
+<section class="sobre">
+  <h2>Sobre nós</h2>
+  <p>Somos um movimento de mulheres que ajudam outras mulheres com amor e dignidade.</p>
+</section>
+
+<!-- CARROSSEL COVERFLOW -->
+<section class="carrossel-section">
+  <h2>Nosso trabalho</h2>
+
+  <div class="carrossel">
+    <div class="track">
+
+      <img src="carrossel-img1.jpg" class="slide">
+      <img src="carrossel-img2.jpg" class="slide">
+      <img src="carrossel-img3.jpg" class="slide">
+
     </div>
+  </div>
+</section>
 
-  </header>
+<!-- PIX -->
+<section id="pix" class="pix">
+  <h2>PIX SOLIDÁRIO</h2>
 
-  <!-- SOBRE -->
-  <section class="sobre">
-    <h2>Sobre a ONG</h2>
-    <p>
-      A ONG Mulheres que Cuidam atua com amor e solidariedade, ajudando mulheres e famílias em situação de vulnerabilidade.
-    </p>
-  </section>
+  <p id="pixKey">gentequecuidaoficial@gmail.com</p>
 
-  <!-- HISTÓRIA -->
-  <section class="historia">
-    <h2>Nossa História</h2>
+  <button onclick="copiarPix()" class="btn primary">Copiar PIX</button>
+</section>
 
-    <p>
-      O projeto nasceu em 2024 durante as enchentes no RS, com união de pessoas dispostas a ajudar.
-    </p>
+<!-- POPUPS -->
+<div id="popup" class="popup">❤️ Ana acabou de doar R$20</div>
 
-    <p>
-      Hoje, seguimos fortalecendo mulheres e famílias com apoio e dignidade.
-    </p>
-
-    <!-- CARROSSEL -->
-    <div class="carrossel">
-      <div class="slides">
-        <img src="carrossel-img1.jpg" class="slide active">
-        <img src="carrossel-img2.jpg" class="slide">
-        <img src="carrossel-img3.jpg" class="slide">
-      </div>
-    </div>
-
-  </section>
-
-  <!-- CONTATO -->
-  <section class="contato">
-    <h2>Contatos</h2>
-
-    <a class="btn whatsapp" href="https://wa.me/5548992191914" target="_blank">
-      Central de Doações
-    </a>
-  </section>
-
-  <!-- PIX -->
-  <section class="pix" id="pix">
-    <h2>PIX SOLIDÁRIO</h2>
-
-    <p id="pixKey" class="pix-chave">
-      gentequecuidaoficial@gmail.com
-    </p>
-
-    <button onclick="copiarPix()" class="btn pix-btn">
-      Copiar chave PIX
-    </button>
-
-    <p class="obs">Cada ajuda transforma vidas 💛</p>
-  </section>
-
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
