@@ -15,56 +15,96 @@
 <header class="hero">
   <div class="overlay"></div>
 
-  <img src="logo.jpg" class="logo">
+  <div class="hero-content">
+    <img src="logo.jpg" class="logo" alt="Logo Mulheres que Cuidam">
 
-  <h1>Mulheres que Cuidam</h1>
-  <p>Transformando vidas com solidariedade</p>
+    <h1>Mulheres que Cuidam</h1>
 
-  <div class="hero-buttons">
-    <a href="#pix" class="btn primary">Quero ajudar</a>
-    <a href="https://wa.me/5548992191914" target="_blank" class="btn secondary">Falar no WhatsApp</a>
+    <p class="subtitle">
+      Transformando vidas com solidariedade e amor
+    </p>
+
+    <div class="hero-buttons">
+      <a href="#pix" class="btn primary">Quero ajudar</a>
+      <a href="https://wa.me/5548992191914" target="_blank" class="btn secondary">
+        Falar no WhatsApp
+      </a>
+    </div>
   </div>
 </header>
 
 <!-- IMPACTO -->
 <section class="impacto">
-  <div class="card">+500 famílias ajudadas</div>
-  <div class="card">+1000 doações</div>
-  <div class="card">1 missão: cuidar de pessoas</div>
+  <div class="card">
+    <h3>+500</h3>
+    <p>Famílias ajudadas</p>
+  </div>
+
+  <div class="card">
+    <h3>+1000</h3>
+    <p>Doações recebidas</p>
+  </div>
+
+  <div class="card">
+    <h3>1 missão</h3>
+    <p>Cuidar de pessoas</p>
+  </div>
 </section>
 
 <!-- SOBRE -->
 <section class="sobre">
-  <h2>Sobre nós</h2>
-  <p>Somos um movimento de mulheres que ajudam outras mulheres com amor e dignidade.</p>
+  <div class="container">
+    <h2>Sobre nós</h2>
+
+    <p>
+      Somos um movimento de mulheres que ajudam outras mulheres com amor, dignidade e apoio real.
+      Atuamos diretamente com famílias em situação de vulnerabilidade.
+    </p>
+  </div>
 </section>
 
-<!-- CARROSSEL COVERFLOW -->
+<!-- CARROSSEL -->
 <section class="carrossel-section">
-  <h2>Nosso trabalho</h2>
+  <div class="container">
+    <h2>Nosso trabalho</h2>
 
-  <div class="carrossel">
-    <div class="track">
+    <div class="carrossel">
+      <div class="track">
 
-      <img src="carrossel-img1.jpg" class="slide">
-      <img src="carrossel-img2.jpg" class="slide">
-      <img src="carrossel-img3.jpg" class="slide">
+        <img src="carrossel-img1.jpg" class="slide" alt="">
+        <img src="carrossel-img2.jpg" class="slide" alt="">
+        <img src="carrossel-img3.jpg" class="slide" alt="">
 
+      </div>
     </div>
   </div>
 </section>
 
 <!-- PIX -->
 <section id="pix" class="pix">
-  <h2>PIX SOLIDÁRIO</h2>
+  <div class="container">
 
-  <p id="pixKey">gentequecuidaoficial@gmail.com</p>
+    <h2>PIX SOLIDÁRIO</h2>
 
-  <button onclick="copiarPix()" class="btn primary">Copiar PIX</button>
+    <p class="pix-label">Chave PIX:</p>
+
+    <p id="pixKey" class="pix-key">
+      gentequecuidaoficial@gmail.com
+    </p>
+
+    <button onclick="copiarPix()" class="btn primary" id="btnPix">
+      Copiar PIX
+    </button>
+
+    <p class="pix-note">
+      Toda ajuda faz diferença ❤️
+    </p>
+
+  </div>
 </section>
 
-<!-- POPUPS -->
-<div id="popup" class="popup">❤️ Ana acabou de doar R$20</div>
+<!-- POPUP -->
+<div id="popup" class="popup"></div>
 
 <script src="script.js"></script>
 </body>
